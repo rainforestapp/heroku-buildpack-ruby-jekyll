@@ -101,8 +101,6 @@ Example Usage:
     -----> Deploy hooks scheduled, check output in your logs
            http://www.mwmanning.com deployed to Heroku
 
-    To git@heroku.com:mattmanning.git
-       8f84bc4..9350a12  master -> master
 
 See Also
 --------

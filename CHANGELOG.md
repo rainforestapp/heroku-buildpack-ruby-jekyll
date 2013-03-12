@@ -1,3 +1,95 @@
+## v56 (3/11/2013)
+
+Bugfixes:
+
+* Upgrade bundler to 1.3.2 to fix --dry-clean/Would have removed bug in bundle clean, part 2.
+
+## v55 (3/7/2013)
+
+Bugfixes:
+
+* Revert back to Bundler 1.3.0.pre.5, see https://gist.github.com/mattonrails/e063caf86962995e7ba0
+
+## v54 (3/7/2013)
+
+Bugfixes:
+
+* Upgrade bundler to 1.3.2 to fix --dry-clean/Would have removed bug in bundle clean
+
+## v53 (3/6/2013)
+
+Bugfixes:
+
+* bin/detect for Rails 3 and 4 will use railties for detection vs the rails gem
+* bin/detect does not error out when Gemfile + Gemfile.lock are missing
+
+## v52 (2/25/2013)
+
+Bugfixes:
+
+* Revert back to 1.3.0.pre.5 due to bundler warnings
+
+## v51 (2/25/2013)
+
+Features:
+
+* Initial Rails 4 beta support
+* Upgrade bundler to 1.3.0
+
+Bugfixes:
+
+* Better buildpack detection through Gemfile.lock gems
+
+## v50 (1/31/2013)
+
+Features:
+
+* Restore ruby deploys back to normal
+
+## v49 (1/30/2013)
+
+Features:
+
+* Re-enable ruby deploys for apps just using the heroku cache
+* Display ruby version change when busting the cache
+
+## v48 (1/30/2013)
+
+Features:
+
+* Update deploy error message copy to link to status incident.
+
+## v47 (1/30/2013)
+
+Features:
+
+* Disable ruby deploys due to rubygems.org compromise
+
+## v46 (1/10/2013)
+
+Features:
+
+* Upgrade Bundler to 1.3.0.pre.5
+* bundler binstubs now go in vendor/bundle/bin
+
+## v45 (12/14/2012)
+
+Features:
+
+* Stop setting env vars in bin/release now that login-shell is released
+* Enable Invoke Dynamic on JRuby by default
+* GEM_PATH is now updated on each push
+
+## v44 (12/14/2012)
+
+Faulty Release
+
+## v43 (12/13/2012)
+
+Features:
+
+* Upgrade Bundler to 1.3.0.pre.2
+
 ## v42 (11/26/2012)
 
 Features:
